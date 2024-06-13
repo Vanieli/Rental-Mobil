@@ -1,0 +1,18 @@
+FIELD => tier1 -- tier2 -- tier3 -- tier4 -- tier5 -- tier6 || file 
+CREATE INPUT => [
+User
+
+    // (1)name || (2)username || (3)email || (4)password || (5)verify password || (6)role
+
+Mobil
+z
+    // (1)jenis || (2)nomor plat || (3)warna || (4)berapa bangku
+
+Drive
+
+    // (1)user_uuid || (2)mobil_id || (3)status_kerja (kerja/nganggur) 
+
+Transaksi
+
+    // (2)durasi waktu perjalanan (milisecond) || (3)jarak (meter) || (4)taanggal pemesanan 
+],
